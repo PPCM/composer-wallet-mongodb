@@ -40,7 +40,12 @@ const wrongConfigs = [{
 const correctConfigs = [{
   uri: 'mongodb://localhost:27017/testWallletCollection',
   collectionName: 'testWallet',
-  'namePrefix':'test'
+  'namePrefix':'test',
+  encrypted: true,
+  encryption : {
+    algorithm: 'aes256',
+    key: 'somekey'
+  }
 }]
 
 /**
