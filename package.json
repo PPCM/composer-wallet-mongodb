@@ -28,8 +28,10 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/PPCM/composer-wallet-mongodb#readme",
   "dependencies": {
+    "bcrypt": "^3.0.0",
     "bluebird": "^3.5.1",
     "composer-common": "^0.19.11",
+    "crypto": "^1.0.1",
     "jsrsasign": "^8.0.9",
     "mongoose": "^5.0.13",
     "path": "^0.12.7"

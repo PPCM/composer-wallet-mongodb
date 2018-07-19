@@ -71,7 +71,12 @@ export NODE_CONFIG='{
         "collectionName": "myWallet",
         "options": {
 
-        }
+        },
+	"encrypted": true,
+	"encryption": {
+		"algorithm": "aes256",
+		"key": "somesecret"
+	}
       }
     }
   }
